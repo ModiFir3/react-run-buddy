@@ -12,13 +12,36 @@ function Header() {
             <nav>
                 <Tabs
                     orientation={smallScreen ? 'vertical' : 'horizontal'}
+                    variant="fullWidth"
                 >
                     <Tab
                         label="What We Do"
-                    ></Tab>
-                    <Tab label="What You Do"></Tab>
-                    <Tab label="Your Trainers"></Tab>
-                    <Tab label="Reach Out"></Tab>
+                        style={{
+                            fontWeight: 'bold',
+                            color: '#fce138',
+                        }}
+                    />
+                    <Tab
+                        label="What You Do"
+                        style={{
+                            fontWeight: 'bold',
+                            color: '#fce138',
+                        }}
+                    />
+                    <Tab
+                        label="Your Trainers"
+                        style={{
+                            fontWeight: 'bold',
+                            color: '#fce138',
+                        }}
+                    />
+                    <Tab
+                        label="Reach Out"
+                        style={{
+                            fontWeight: 'bold',
+                            color: '#fce138',
+                        }}
+                    />
                 </Tabs>
             </nav>
         </header>

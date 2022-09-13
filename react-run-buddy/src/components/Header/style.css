@@ -1,7 +1,35 @@
 header {
-  text-align: center;
+  display: flex;
+  background-image: url("../../assets/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+h1 {
+  margin: auto 0 auto 10px;
+  color: #fce138;
+  font-size: 36px;
 }
 
 nav {
-  
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: block;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+
+  nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
