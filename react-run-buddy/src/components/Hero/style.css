@@ -1,3 +1,26 @@
+.hero {
+  display: flex;
+  background-image: url(../../assets/img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero-cta {
+  margin: 3.5%;
+  width: 40%;
+  text-align: right;
+  color: white;
+  font-size: 24px;
+}
+
+.hero-cta h2 {
+  font-style: none;
+  font-size: 55px;
+  color: #fce138;
+}
+
 .heroForm {
   background-color: #fce138;
   opacity: 0.8;
@@ -7,10 +30,28 @@
   border-radius: 20px;
 }
 
-.heroContext {
-}
-
 h3 {
   font-size: 24px;
   color: #024e76;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    margin: 0;
+    display: block;
+  }
+  .hero-cta {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .heroForm {
+    width: auto;
+  }
 }

@@ -8,21 +8,22 @@ import {
     Radio,
     RadioGroup,
     Checkbox,
-    Button,
-    Box
+    Button
 } from '@mui/material'
 import './style.css'
 
 function Homepage() {
     return (
         <div className="hero">
-            <h2>Start Building Habits</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Quos obcaecati
-                autem maxime, laboriosam cupiditate, reiciendis porro quo, hic harum nobis
-                nesciunt fugiat tenetur quaerat quia repellendus reprehenderit pariatur in
-                rem?
-            </p>
+            <div className="hero-cta">
+                <h2>Start Building Habits</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Quos obcaecati
+                    autem maxime, laboriosam cupiditate, reiciendis porro quo, hic harum nobis
+                    nesciunt fugiat tenetur quaerat quia repellendus reprehenderit pariatur in
+                    rem?
+                </p>
+            </div>
 
             <form className="heroForm">
                 <div className="heroContent">
